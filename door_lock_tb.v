@@ -29,6 +29,7 @@ password_entry=0;
     #10
     password_entry=4'b1100;
     enter=1;
+    #10 enter=1;
     #10 enter=0;
     #10 
     password_entry=4'b1001;

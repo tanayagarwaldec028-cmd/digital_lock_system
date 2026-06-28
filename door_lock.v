@@ -10,6 +10,10 @@ reg [3:0]state,next_state;
 reg [3:0]count,timer,alaarm;
 wire correct;
 
+reg enter_d;
+always @(posedge clk) enter_d <= enter;
+wire enter_pulse = enter & ~enter_d;
+
 assign correct = (password_entry==password);
 
 always @(posedge clk)begin
@@ -53,9 +57,9 @@ always @(*) begin
     next_state=state;
     case(state) 
    s0:begin
-    if(correct && enter)
+    if(correct && enter_pulse)
     next_state=s1;
-    else if(enter && !correct)
+    else if(enter_pulse && !correct)
     next_state=s2;
    end
 
