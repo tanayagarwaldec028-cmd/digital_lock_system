@@ -1,0 +1,271 @@
+$date
+	Sun Jun 28 16:19:19 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module door_lock_tb $end
+$var wire 1 ! unlock $end
+$var wire 1 " ALARM $end
+$var reg 1 # clk $end
+$var reg 1 $ enter $end
+$var reg 4 % password_entry [3:0] $end
+$var reg 1 & reset $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ enter $end
+$var wire 4 ' password_entry [3:0] $end
+$var wire 1 & reset $end
+$var wire 1 ! unlock $end
+$var wire 1 ( correct $end
+$var wire 1 " ALARM $end
+$var parameter 4 ) alarm_time $end
+$var parameter 4 * attempts $end
+$var parameter 4 + hold $end
+$var parameter 4 , password $end
+$var parameter 4 - s0 $end
+$var parameter 4 . s1 $end
+$var parameter 4 / s2 $end
+$var parameter 4 0 s3 $end
+$var reg 4 1 alaarm [3:0] $end
+$var reg 4 2 count [3:0] $end
+$var reg 4 3 next_state [3:0] $end
+$var reg 4 4 state [3:0] $end
+$var reg 4 5 timer [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 0
+b10 /
+b1 .
+b0 -
+b1100 ,
+b1010 +
+b11 *
+b1010 )
+$end
+#0
+$dumpvars
+bx 5
+bx 4
+b0 3
+bx 2
+bx 1
+0(
+b0 '
+1&
+b0 %
+0$
+0#
+x"
+x!
+$end
+#5
+0!
+0"
+b0 4
+b0 2
+b0 5
+b0 1
+1#
+#10
+b10 3
+0#
+1$
+b101 %
+b101 '
+#12
+0&
+#15
+b0 3
+b10 4
+1#
+#20
+b0 3
+0#
+0$
+#25
+b0 4
+b1 2
+1#
+#30
+b1 3
+0#
+1$
+1(
+b1100 %
+b1100 '
+#35
+1!
+b1 4
+1#
+#40
+0#
+0$
+#45
+b0 2
+b1 5
+1#
+#50
+0#
+1$
+0(
+b1001 %
+b1001 '
+#55
+b10 5
+1#
+#60
+0#
+0$
+#65
+b11 5
+1#
+#70
+0#
+1$
+b1000 %
+b1000 '
+#75
+b100 5
+1#
+#80
+0#
+0$
+#85
+b101 5
+1#
+#90
+0#
+#95
+b110 5
+1#
+#100
+0#
+#105
+b111 5
+1#
+#110
+0#
+#115
+b1000 5
+1#
+#120
+0#
+#125
+b1001 5
+1#
+#130
+0#
+#135
+b0 3
+b1010 5
+1#
+#140
+0#
+#145
+0!
+b0 4
+b0 5
+1#
+#150
+b10 3
+0#
+1$
+b1101 %
+b1101 '
+#155
+b0 3
+b10 4
+1#
+#160
+b0 3
+0#
+0$
+#165
+b0 4
+b1 2
+1#
+#170
+0#
+#175
+1#
+#180
+0#
+#185
+1#
+#190
+0#
+#195
+1#
+#200
+0#
+#205
+1#
+#210
+0#
+#215
+1#
+#220
+0#
+#225
+1#
+#230
+0#
+#235
+1#
+#240
+0#
+#245
+1#
+#250
+0#
+#255
+1#
+#260
+0#
+#265
+1#
+#270
+0#
+#275
+1#
+#280
+0#
+#285
+1#
+#290
+0#
+#295
+1#
+#300
+0#
+#305
+1#
+#310
+0#
+#315
+1#
+#320
+0#
+#325
+1#
+#330
+0#
+#335
+1#
+#340
+0#
+#345
+1#
+#350
+0#
+#355
+1#
+#360
+0#
